@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="top-bar">
+        <a href="index.html">Google Search</a>
+    </div>
+
+    <div style="margin-left:36px">
+
+        <h5 class="text-danger">Advanced Search</h5>
+        <br><br>
+
+        <form action="https://google.com/search" id="s1zaZb" method="GET" name="f">
+
+            Find pages with...
+            <br><br>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label adv-s-lbl">all these words:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="as_q">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label adv-s-lbl">this exact word or phrase:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="as_epq">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label adv-s-lbl">any of these words:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="as_oq">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label adv-s-lbl">none of these words:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="as_eq">
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-10 d-flex flex-row-reverse">
+                <input type="submit" class="btn btn-primary" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
